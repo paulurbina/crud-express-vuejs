@@ -8,7 +8,7 @@ const itemRoutes = require('./routes/Item');
 
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://mongo:27019/mevn-crud', {
+mongoose.connect('mongodb://mongodb:27017/mevn-crud', {
 	useUnifiedTopology: true,
 	useNewUrlParser: true
 })
